@@ -1,0 +1,50 @@
+table, th, td, tr {
+    border: 1px solid #000;
+    width: 80px;
+    border-collapse:collapse;
+    padding:10px;
+    background-color: rgb(219, 233, 141);
+}
+th{
+    background-color: rgb(245, 220, 137);
+}
+h1{
+text-align: center;
+font-size: 45px;
+}
+.rgb {
+    font-family: Arial, Helvetica, sans-serif;
+animation-name: text_changing;
+animation-duration: 1s;
+animation-timing-function: ease-in;
+animation-iteration-count: infinite;
+animation-delay: 250ms;
+}    
+
+@keyframes text_changing  {
+   0% { 
+    color: red;
+}
+    50%{
+        color: green;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+a {
+    color:black;
+}
+a:hover {
+    color: purple;
+}
+body{
+    background-color: rgb(255, 243, 242);
+}
+
+img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
