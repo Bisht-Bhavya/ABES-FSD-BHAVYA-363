@@ -1,0 +1,15 @@
+body{
+    background-color: aliceblue;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+tr,th,td{
+    text-align: center;
+    font-size: 20px;
+}
+h1,button{
+    text-align: center;
+    font-size: 10px;
+}
