@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+  justify-content:center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+background-color: darkblue;
+height: 50px;
+width: 100%;
+padding: 2px;
+margin: 0px;
+border: 0px;
+gap: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+}
+a:hover{
+    color: yellow;
+}
+.navbar:hover > .descendent-element{
+    background-color: rgb(100, 100, 155);
+}
+html,body{
+    margin: 0px;
+}
