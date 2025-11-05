@@ -1,0 +1,29 @@
+html{ margin: 0;}
+body {margin:0;}
+
+.container{
+    display: flexbox;
+    color: white;
+    background-color: slategray;
+    height: 60px;
+    width: 100%;
+    gap: 10px;
+    justify-content: space-between;
+}
+#logo{
+    width: 110px;
+    height: 50px;
+    float: left;
+    display: block;
+}
+.container div{
+    color: black;
+}
+h1{
+    top: 0;
+    width: 5px;
+    height: 5px;
+}
+.container div input[type="text"]{
+    width: 30%;
+}
