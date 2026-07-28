@@ -1,0 +1,45 @@
+:root{
+    --col1:#3f00ff;
+    --col2:#f333f4;
+    --col3:#ff1122;
+}
+
+.box{
+    height: auto;
+    width: auto;
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+#b1{
+    border: 2px solid black;
+    display: flex;
+    background-color: var(--col1, green);
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+#b2{
+    border: 2px solid black;
+    display: flex;
+    background-color: var(--col2, black);
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+#b3{
+    border: 2px solid black;
+    display: flex;
+    background-color: var(--col3, azure);
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-image: linear-gradient(45deg,rgba(252, 27, 27, 0.884) 10px, rgba( 0, 0, 255, 1) 10px, rgba(255, 0, 0, 1) 10px);
+}
